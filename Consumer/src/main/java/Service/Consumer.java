@@ -7,7 +7,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class Consumer {
 
-    @RabbitListener(queues={"${queue}", "${queue2}"})
+//    @RabbitListener(queues={"${queue}", "${queue2}"})
+    @RabbitListener(queues="#{'${queues}'.split(',')}")
     public void receive(String in) {
         System.out.println("Received " + in);
     }
