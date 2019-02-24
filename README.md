@@ -9,3 +9,6 @@
     - x-dead-letter-exchange and point to the direct exchange in 1
     - x-dead-letter-routing-key and point it to the key in 3
     - Bind the exchange in 2
+### Main Modules
+1. ConsumerAuto
+2. ProducerTopic
