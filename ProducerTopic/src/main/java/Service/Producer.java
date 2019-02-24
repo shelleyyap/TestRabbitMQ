@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 public class Producer {
     Logger LOGGER = LoggerFactory.getLogger(Producer.class);
 
-    private String TOPIC = "amq.topic";
+    private String TOPIC = "test.topic";
 
     @Autowired
     private AmqpTemplate template;
@@ -42,6 +42,28 @@ public class Producer {
         template.convertAndSend(TOPIC, entity4.getRoutingKey(), entity4);
         System.out.println("Sent: " + entity4.toString());
         template.convertAndSend(TOPIC, entity5.getRoutingKey(), entity5);
+        System.out.println("Sent: " + entity5.toString());
+    }
+
+    public void sendError() {
+        TestEntity entity1 = new TestEntity("A.A", "Annabelle", 1);
+        TestEntity entity2 = new TestEntity("A.B", "Benedict", 2);
+        TestEntity entity3 = new TestEntity("B.A", "Charles", 3);
+        TestEntity entity4 = new TestEntity("B.B", "Dickens", 4);
+        TestEntity entity5 = new TestEntity("C.C", "Emily", 5);
+//        String message = "Hello World";
+//        String message2 = "Hello World2";
+//        rabbitTemplate.convertAndSend(queue, message);
+//        rabbitTemplate.convertAndSend(queue2, message2);
+        template.convertAndSend(TOPIC, entity1.getRoutingKey(), "hello1");
+        System.out.println("Sent: " + entity1.toString());
+        template.convertAndSend(TOPIC, entity2.getRoutingKey(), "hello2");
+        System.out.println("Sent: " + entity2.toString());
+        template.convertAndSend(TOPIC, entity3.getRoutingKey(), "hello3");
+        System.out.println("Sent: " + entity3.toString());
+        template.convertAndSend(TOPIC, entity4.getRoutingKey(), "hello4");
+        System.out.println("Sent: " + entity4.toString());
+        template.convertAndSend(TOPIC, entity5.getRoutingKey(), "hello5");
         System.out.println("Sent: " + entity5.toString());
     }
 

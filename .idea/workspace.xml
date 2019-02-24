@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="689a387d-341a-4b7a-b84e-fec29ce0c5b0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/src/main/java/Service/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/src/main/java/Service/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Producer/src/main/java/Service/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Producer/src/main/java/Service/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Producer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Producer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerTopic/src/main/java/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProducerTopic/src/main/java/Controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerTopic/src/main/java/Service/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProducerTopic/src/main/java/Service/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerTopic/target/classes/Controller/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerTopic/target/classes/Service/Producer.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,28 +35,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="92" />
+          <entry key="java" value="93" />
           <entry key="properties" value="24" />
           <entry key="xml" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="92" />
+          <entry key="JAVA" value="93" />
           <entry key="Properties" value="24" />
           <entry key="XML" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2722" />
+          <entry key="java" value="2757" />
           <entry key="properties" value="180" />
           <entry key="xml" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2722" />
+          <entry key="JAVA" value="2757" />
           <entry key="Properties" value="180" />
           <entry key="XML" value="79" />
         </counts>
@@ -69,36 +65,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Consumer/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Consumer/src/main/java/Service/Consumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#418#419#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Producer/src/main/java/Service/Producer.java">
+        <entry file="file://$PROJECT_DIR$/ProducerTopic/src/main/java/Service/Producer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+            <state relative-caret-position="49">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProducerTopic/src/main/java/Controller/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#703#704#0" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,10 +121,8 @@
         <option value="$PROJECT_DIR$/ProducerTopic/pom.xml" />
         <option value="$PROJECT_DIR$/ProducerTopic/src/main/java/Config/RabbitConfig.java" />
         <option value="$PROJECT_DIR$/ProducerTopic/src/main/java/Entity/TestEntity.java" />
-        <option value="$PROJECT_DIR$/ProducerTopic/src/main/java/Service/Producer.java" />
         <option value="$PROJECT_DIR$/ProducerTopic/src/main/java/MainProducerTopic.java" />
         <option value="$PROJECT_DIR$/Producer/src/main/java/MainProducer.java" />
-        <option value="$PROJECT_DIR$/ProducerTopic/src/main/java/Controller/Controller.java" />
         <option value="$PROJECT_DIR$/ConsumerAuto/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/ConsumerAuto/src/main/java/Service/Consumer.java" />
         <option value="$PROJECT_DIR$/ConsumerAuto/src/main/java/Config/RabbitConfig.java" />
@@ -155,6 +136,8 @@
         <option value="$PROJECT_DIR$/Consumer/src/main/java/Service/Consumer.java" />
         <option value="$PROJECT_DIR$/Producer/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/Producer/src/main/java/Service/Producer.java" />
+        <option value="$PROJECT_DIR$/ProducerTopic/src/main/java/Controller/Controller.java" />
+        <option value="$PROJECT_DIR$/ProducerTopic/src/main/java/Service/Producer.java" />
       </list>
     </option>
   </component>
@@ -177,7 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -189,68 +171,25 @@
             <path>
               <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="RabbitMQTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="ConsumerAuto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="RabbitMQTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="ConsumerAuto" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="RabbitMQTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RabbitMQTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RabbitMQTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RabbitMQTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RabbitMQTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Producer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RabbitMQTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RabbitMQTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Producer" type="462c0819:PsiDirectoryNode" />
+              <item name="ConsumerAuto" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="RabbitMQTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Producer" type="462c0819:PsiDirectoryNode" />
+              <item name="ConsumerAuto" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -258,7 +197,25 @@
             <path>
               <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="RabbitMQTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Producer" type="462c0819:PsiDirectoryNode" />
+              <item name="ConsumerAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RabbitMQTest" type="462c0819:PsiDirectoryNode" />
+              <item name="ConsumerAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RabbitMQTest" type="462c0819:PsiDirectoryNode" />
+              <item name="ConsumerAuto" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -267,7 +224,51 @@
             <path>
               <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="RabbitMQTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Producer" type="462c0819:PsiDirectoryNode" />
+              <item name="ProducerTopic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RabbitMQTest" type="462c0819:PsiDirectoryNode" />
+              <item name="ProducerTopic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RabbitMQTest" type="462c0819:PsiDirectoryNode" />
+              <item name="ProducerTopic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RabbitMQTest" type="462c0819:PsiDirectoryNode" />
+              <item name="ProducerTopic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RabbitMQTest" type="462c0819:PsiDirectoryNode" />
+              <item name="ProducerTopic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RabbitMQTest" type="462c0819:PsiDirectoryNode" />
+              <item name="ProducerTopic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RabbitMQTest" type="462c0819:PsiDirectoryNode" />
+              <item name="ProducerTopic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -276,10 +277,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549456490318" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551013838338" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../springexample" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -311,7 +313,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.MainProducerTopic">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ConsumerAuto" />
@@ -356,11 +358,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainProducerTopic" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.MainProducer" />
         <item itemvalue="Application.MainConsumer" />
         <item itemvalue="Application.TestMain" />
-        <item itemvalue="Application.MainProducerTopic" />
       </list>
     </recent_temporary>
   </component>
@@ -381,7 +383,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18336888" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18976545" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -390,7 +392,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.324295" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32321042" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -539,24 +541,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProducerTopic/src/main/java/Controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Producer/src/main/java/Controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="10" column="13" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProducerTopic/src/main/java/Service/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -602,11 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="653">
           <caret line="55" column="61" selection-start-line="55" selection-start-column="61" selection-end-line="55" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1640#1641#0" expanded="true" />
-            <element signature="e#1706#1707#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -614,10 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -628,40 +607,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/src/main/java/TestMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/src/main/java/Test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/Test/src/main/java/TestMain.java" />
+    <entry file="file://$PROJECT_DIR$/Test/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/Test/src/main/java/Test/Test.java" />
     <entry file="file://$PROJECT_DIR$/Consumer/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -680,11 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -695,6 +639,24 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProducerTopic/src/main/java/Controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <folding>
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProducerTopic/src/main/java/Service/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
         </state>
       </provider>
     </entry>

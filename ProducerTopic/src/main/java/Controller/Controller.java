@@ -18,4 +18,10 @@ public class Controller {
     public void sendTestMessage() {
         producer.send();
     }
+
+    @RequestMapping(value="/testError", method= RequestMethod.GET)
+    @ResponseBody
+    public void sendTestErrorMessage() {
+        producer.sendError();
+    }
 }
